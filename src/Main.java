@@ -1,12 +1,12 @@
 public class Main {
     public static void main(String[] args) {
         BonusMilesService service = new BonusMilesService();
-                System.out.println();
-                int price;
-                price=13_676;
+        System.out.println();
+        int price;
+        price = 13_676;
         System.out.println("При покупке билета по цене " + (price) + "руб");
         System.out.println("Буден начисленно миль");
-                System.out.println(service.calculate(price));
+        System.out.println(service.calculate(price));
         System.out.println();
         System.out.println("Тест");
         System.out.println(service.calculate(13676));
